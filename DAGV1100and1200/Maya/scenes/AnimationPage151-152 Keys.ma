@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: AnimationPage151-152 Keys.ma
-//Last modified: Mon, Mar 02, 2026 12:35:58 AM
+//Last modified: Mon, Mar 02, 2026 12:37:52 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "Ultimate_Tailed_v1_0_1" -rfn "Ultimate_Tailed_v1_0_1RN" -op
 		 "v=0;" -typ "mayaAscii" "/Users/anthonyromrell/GitRepos/Essentials/DAGV1100and1200/Maya//scenes/Rigs/Ultimate_Tailed_v1.0.1.ma";
@@ -15,12 +15,12 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202506101850-99cfad7309";
 fileInfo "osv" "Mac OS X 20.2";
-fileInfo "UUID" "A3FAACD9-8140-10C5-8DA7-94997969466E";
+fileInfo "UUID" "F97C4707-884E-587B-426D-759CFC887D2F";
 createNode transform -s -n "persp";
 	rename -uid "99AE300A-8742-A46D-6279-CCBF22DA318F";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 11.89183465577273 2.747923776073768 6.4718247597315939 ;
-	setAttr ".r" -type "double3" -7.5383527296116508 424.19999999994616 9.1346720341336893e-16 ;
+	setAttr ".t" -type "double3" 11.516040400448539 3.1524302061162111 -5.5040970515936163 ;
+	setAttr ".r" -type "double3" -8.1383527296186333 476.99999999993207 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "45862811-F348-56B1-5498-F0BFE7C3E382";
 	setAttr -k off ".v" no;
